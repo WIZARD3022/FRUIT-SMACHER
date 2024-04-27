@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to play</title>
+</head>
+<body>
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <div>
+            <ol>
+                <li><img src="./basket/logo.jpeg" alt=""></li>
+                <li><p><b>FRUIT SMACHER</b></p></li>
+            </ol>
+        </div>
+        <div>
+            <ol>
+                <li><button onclick="about()">About</button></li>
+                <li><button style="background-color: rgb(93, 92, 92);cursor: pointer;" onclick="how()">How to play</button></li>
+            </ol>
+        </div>
+    </header>
+    <div class="main">
+        <div>
+            <div class="mango"><img src="./basket/mango.png" alt="">The<b> fruit</b> which give one point each time when it is left-clicked.</div>
+            <div class="bomb"><img src="./basket/bomb.png" alt="">The<b> bomb</b> which deduct two point each time when it is left-clicked.</div>
+            <div class="bomb"><img src="./basket/start.png" alt="">The<b> Play</b> button which start the game when it is left-clicked.</div>
+            <div class="bomb"><img src="./basket/restart.png" alt="">The<b> Restart</b> button which will rest all the score once again to zero and make ready to start game again when it is left-clicked.</div>
+            <div class="bomb"><img src="./basket/level.png" alt="">The<b> Level</b> buttons which helps to select the dificulty of game when it is left-clicked.</div>
+            <div class="bomb"><img src="./basket/total.png" alt="">The<b> Total</b> which shows the amount of fruits which appear to slach.</div>
+            <div class="bomb"><img src="./basket/score.png" alt="">The<b> bomb</b> which shows the amount of fruits which you slached.</div>
+
+        </div>
+    </div>
+    <div class="game">
+        <button style="display: flex; justify-content: center; align-items: center;" onclick="game()">Back to fruit smaching</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

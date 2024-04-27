@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Smacher Game</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <header>
+        <div>
+            <ol>
+                <li><img src="./basket/logo.jpeg" alt=""></li>
+                <li><p><b>FRUIT SMACHER</b></p></li>
+            </ol>
+        </div>
+        <div>
+            <ol>
+                <li><button onclick="about()">About</button></li>
+                <li><button onclick="how()">How to play</button></li>
+            </ol>
+        </div>
+    </header>
+    <div class="main">
+        <div>
+            <ol>
+                <li><button onclick="play()"><span class="material-symbols-outlined">play_arrow </span>PLAY</button></li>
+                <li><button onclick="restart()"><span class="material-symbols-outlined">replay </span>RESTART</button></li>
+            </ol>
+        </div>
+        <div style="display: flex; gap: 60px">
+            <div class="level_all">
+                <button class="level_selected" id="level1" onclick="selected(1)"><b>LEVEL 1</b></button>
+                <button class="level" id="level2" onclick="selected(2)"><b>LEVEL 2</b></button>
+                <button class="level" id="level3" onclick="selected(3)"><b>LEVEL 3</b></button>
+                <button class="level" id="level4" onclick="selected(4)"><b>LEVEL 4</b></button>
+                <button class="level" id="level5" onclick="selected(5)"><b>LEVEL 5</b></button>
+                <button class="level" id="level6" onclick="selected(6)"><b>LEVEL 6</b></button>
+                <button class="level" id="level7" onclick="selected(7)"><b>LEVEL 7</b></button>
+                <button class="level" id="level8" onclick="selected(8)"><b>LEVEL 8</b></button>
+                <button class="level" id="level9" onclick="selected(9)"><b>LEVEL 9</b></button>
+                <button class="level" id="level10" onclick="selected(10)"><b>LEVEL 10</b></button>
+            </div>
+            <div class="area">
+    
+            </div>
+            <div class="score">
+                <div>Total fruits :<div class="Total"></div> </div>
+                <div>Your score :<div class="Score"></div> </div>
+            </div>
+        </div>
+        <span>Hope you enjoy the game</span>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,12 @@
+.mango img{
+    height: 100px;
+    width: 100px;
+}
+.bomb img{
+    height: 100px;
+    width: 100px;
+}
+.mango ,.bomb{
+    font-size: x-large;
+
+}
