@@ -169,11 +169,11 @@ footer div img {
     background-image: url(./basket/OIG1.jpeg);
     background-size: cover;
     height: 300px;
-    width: 200px;
+    width: 250px;
   }
   .level_all {
     border: solid 2px black;
-    width: 200px;
+    width: 250px;
     height: 420px;
     background-color: aqua;
     display: flex;
@@ -192,7 +192,7 @@ footer div img {
   .score {
     border: solid 2px black;
     height: 520px;
-    width: 200px;
+    width: 250px;
     background-color: aquamarine;
   }
   header div ol li p b {
