@@ -17,29 +17,29 @@ var negative2 = 0;
 const insert = (random_height, random_top, random_left, order, a) => {
 
     if (order == 1) {
-        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px" src="./basket/gavava.png" alt=""></div>`;
+        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px z-index:5" src="./basket/gavava.png" alt=""></div>`;
     }
     if (order == 2) {
-        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px" src="./basket/apple.png" alt=""></div>`;
+        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px z-index:5" src="./basket/apple.png" alt=""></div>`;
     }
     if (order == 3) {
-        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px" src="./basket/custard apple.png" alt=""></div>`;
+        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px z-index:5" src="./basket/custard apple.png" alt=""></div>`;
     }
     if (order == 4) {
-        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px" src="./basket/mango.png" alt=""></div>`;
+        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px z-index:5" src="./basket/mango.png" alt=""></div>`;
     }
     if (order == 5) {
-        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px" src="./basket/orange.png" alt=""></div>`;
+        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px z-index:5" src="./basket/orange.png" alt=""></div>`;
     }
     if (order == 6) {
-        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px" src="./basket/stroberry.png" alt=""></div>`;
+        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px z-index:5" src="./basket/stroberry.png" alt=""></div>`;
     }
     if (order == 7) {
-        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px" src="./basket/Water melon.png" alt=""></div>`;
+        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px z-index:5" src="./basket/Water melon.png" alt=""></div>`;
     }
     if (order == 8){
         negative2 = negative2 + 1;
-        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px" src="./basket/bomb.png" alt=""></div>`;
+        document.querySelector(".area").innerHTML = `<div><img class= "fruit" style="height: ${random_height}px; margin-left: ${random_left}px; margin-top:${random_top}px z-index:5" src="./basket/bomb.png" alt=""></div>`;
         document.querySelector(".Total").innerHTML = `${a + negative2}`;
     }
 
